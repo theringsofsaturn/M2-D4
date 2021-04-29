@@ -70,10 +70,7 @@
                         <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
                     </li>
                 </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+
             </div>
         </div>
     </nav>
@@ -124,7 +121,7 @@
                 <input type="button" value="Create" id="players-button">
             </div>
 
-            <ol>
+            <ol id="list-of-players">
                 <!--Player's List-->
             </ol>
         </form>
@@ -142,13 +139,15 @@
             new name.</p>
         <h5>Like in the example below:</h5>
         <form>
-            <div class="col 12 col-sm-12 my-sm-5 col-md-6 my-md-5 col-lg-4">
+            <div class="teams">
                 <label for="teams">Name of the Team:</label>
                 <input type="text" name="teams" id="teams-name">
                 <input type="button" value="Create" id="teams-button">
             </div>
         </form>
     </div>
+
+    <div class="row teams mt-5"></div>
     <!--
         Input for Teams End
     -->
